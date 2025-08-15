@@ -12,7 +12,7 @@ def random_img():
         secondN = random.randint(1, 5000)
 
         # путь для выборки рандомных изображений
-        path = f'MNISTDB/TrainingImages/{firstN}/{secondN}.png'
+        path = f'MNISTDB/TestImages/{firstN}/{secondN}.png'
         # path_test = f'MNISTDB/TrainingImages/0/1.png'
 
 
